@@ -1,0 +1,27 @@
+.app-container{
+    display: flex;
+    ;
+}
+.content{
+    width: 100%;
+}
+.sidebar{
+    min-height: 800px;
+}
+.nav-link.active {
+    color: #ff0000; /* Replace with the color you want */
+  }
+  .post-card{
+    width: 18rem;
+    margin: 20px 50px;
+  }
+  .hashtag{
+    margin: 0 3px;
+  }
+  .reactions{
+   margin: 15px 0 0 0;
+  }
+  .create-post{
+    width: 55%;
+    margin: 5%
+  }
