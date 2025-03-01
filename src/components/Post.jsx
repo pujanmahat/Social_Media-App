@@ -23,7 +23,7 @@ const Post=({ post })=> {
         ))}
 
         <div className="alert alert-success reactions" role="alert">
-          This post has been reacted to {post.reactions} times
+          This post has been reacted to {post.reactions.likes} times
         </div>
       </div>
     </div>
